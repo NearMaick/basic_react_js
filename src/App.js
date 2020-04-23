@@ -5,7 +5,12 @@ import Header from './components/Header';
 function App() {
   return (
     <>
-    <Header />
+    <Header title="Projetos">
+      <ul>
+        <li>Home</li>
+        <li>projects</li>
+      </ul>
+    </Header>
     <Header />
     </>
   );

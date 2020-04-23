@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+import './App.css';
+import background from './assets/background.jpg';
+
 import Header from './components/Header';
 
 function App() {
@@ -21,6 +24,8 @@ function App() {
       </ul>
     
       <button type="button" onClick={handleAddProject}>Adicionar projeto</button>
+
+      <img width={300} src={background} />
     </>
   );
 }
